@@ -64,11 +64,12 @@ a{
 
 .square{
 
-    width: 10rem;
-    height:10rem;
+    width: 5rem;
+    height:5rem;
     border-radius: 2%;
     background: rgb(44, 158, 179);
-    left: 70%;
-    top: 70%;
+    left: 65%;
+    top: 80%;
     position: absolute;
+    border-radius: 2%;
 }
