@@ -1,3 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo',sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: white;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 5rem;
+}
+
+.logo {
+    font-family: 'Caesar Dressing', cursive;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50% , -50%) scale(6);
+
+}
+.home{
+    height: 100vh;
+}
+
+.first-page{
+    height: 100vh;
+    background: rgb(21,21,21);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-page img{
+    height: 100%;
+    max-width: 50%;
+}
