@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Heebo',sans-serif;
+    
 }
 
 nav{
@@ -46,7 +47,7 @@ a{
 }
 .home{
     height: 100vh;
-    
+
 }
 
 
@@ -57,7 +58,7 @@ a{
     display:flex;
     align-items: center;
     justify-content: space-between;
-
+    overflow: hidden;
 }
 
 .first-page img{
@@ -78,6 +79,20 @@ a{
     border-radius: 2%;
 }
 
-#project{
+.second-page{
     height: 100vh;
+    background: rgb(21,21,21);
+    color: white;
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100vw;
+}
+
+
+.project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
