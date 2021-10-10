@@ -48,6 +48,7 @@ a{
     height: 100vh;
 }
 
+
 .first-page{
     height: 100vh;
     background: rgb(21,21,21);
@@ -55,11 +56,13 @@ a{
     display:flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .first-page img{
     height: 100%;
     max-width: 50%;
+    background-repeat: no-repeat;
 }
 
 .square{
@@ -72,4 +75,8 @@ a{
     top: 80%;
     position: absolute;
     border-radius: 2%;
+}
+
+#project{
+    height: 100vh;
 }
