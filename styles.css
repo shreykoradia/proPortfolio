@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Heebo',sans-serif;
+    cursor: pointer;
     
 }
 
@@ -66,7 +67,6 @@ a{
     width: 40vw;
     background-repeat: no-repeat;
 }
-
 
 .square{
 

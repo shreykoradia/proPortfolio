@@ -43,3 +43,8 @@ let tl3 = gsap.timeline({
         pinSpacing:false
     },
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const kinetics = new Kinetics().interactionHook();
+  });
