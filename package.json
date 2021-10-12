@@ -1,0 +1,26 @@
+{
+  "name": "shrey-portfolio",
+  "version": "1.0.0",
+  "description": "A proffesional portfolio ",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreykoradia/proPortfolio.git"
+  },
+  "author": "Shrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreykoradia/proPortfolio/issues"
+  },
+  "homepage": "https://github.com/shreykoradia/proPortfolio#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

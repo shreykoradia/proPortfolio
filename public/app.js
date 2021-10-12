@@ -28,7 +28,6 @@ let tl4 = gsap.timeline({
 tl.fromTo(".sliding-text",{y:0} , {y:-400});
 tl2.fromTo('.logo', {scale : 6 }, {scale : 1 , top : '2rem' , left : '3rem' , x : "50%" , y : "50%"  }
 );
-tl4.fromTo('.square',{left :"65%"} , {left : "90%" , opacity: 0 , rotation:90});
 
 
 
