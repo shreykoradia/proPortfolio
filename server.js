@@ -1,17 +1,22 @@
 const express = require('express')
 const app = express()
 require('dotenv').config()
+const path = require('path')
+const router = express.Router();
 const port = process.env.PORT || 5100
 
+// app.use(express.static(path.join(__dirname, 'public')));
+// setting the public static files for the view engiene 
+app.use(express.static('.'));
 // !important! 
 // you need to install the following libraries |express|[dotenv > if required]
 // or run this command >> npm i express dotenv 
 
-app.get('/' , (req , res)=>{
+router.get('/', (req, res) => {
+res.sendFile(path.join(__dirname + '/public/index.html'));
+});
 
-   res.send('hello from simple server :)')
+// adding the routes
 
-})
-
-
+app.use('/' , router);
 app.listen(port , ()=> console.log('> Server is up and running on port : ' + port))
