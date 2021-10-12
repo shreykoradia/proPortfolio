@@ -67,20 +67,6 @@ a{
     width: 40vw;
     background-repeat: no-repeat;
 }
-
-.square{
-
-    width: 5rem;
-    height:5rem;
-    border-radius: 2%;
-    /* background: rgb(44, 158, 179); */
-    background: rgba(10, 10, 10, 0.938);
-    left: 65%;
-    top: 80%;
-    position: absolute;
-    border-radius: 2%;
-}
-
 .second-page{
     height: 100vh;
     background: rgba(10, 10, 10, 0.938);
@@ -91,8 +77,6 @@ a{
     max-width: 100vw;
     flex-direction: column;
 }
-
-
 #project{
     display: flex;
     align-items: center;
@@ -100,7 +84,23 @@ a{
     justify-content: center;
     height: 100vh;
 }
+#work1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem ;
+  flex-direction: column;
+  font-size: 2rem;
 
+}
+#work1 a{
+  text-decoration: none;
+  color: white;
+  padding: 0.3rem;
+  border: white solid 0.4rem;
+  border-radius: 30%;
+  transform: translate(-50% ,10%);
+}
 #resume{
     display: flex;
     align-items: center;
@@ -108,7 +108,6 @@ a{
     justify-content: center;
     height: 100vh;
 }
-
 
 
 ul {
