@@ -63,6 +63,12 @@ a{
 }
 .first-page p{
   text-align: left;
+  overflow: hidden;
+}
+
+.second-page p{
+  text-align: center;
+  overflow: hidden;
 }
 
 .first-page img{
