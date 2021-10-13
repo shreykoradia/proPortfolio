@@ -16,6 +16,10 @@ router.get('/', (req, res) => {
 res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
+router.get('*', (req, res) => {
+    res.send('404! You are lost try finding the path again ');
+  });
+
 // adding the routes
 
 app.use('/' , router);
