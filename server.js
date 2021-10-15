@@ -23,6 +23,6 @@ router.get('*', (req, res) => {
 // adding the routes
 
 app.use('/' , router);
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 5100, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
