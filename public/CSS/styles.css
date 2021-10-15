@@ -10,6 +10,7 @@
 body{
     font-family: 'Heebo',sans-serif;
     cursor: pointer;
+    scroll-behavior: smooth;
     
 }
 
@@ -106,9 +107,15 @@ a{
   text-decoration: none;
   color: white;
   padding: 0.3rem;
-  border: white solid 0.2rem;
-  border-radius: 30%;
+  border: white rgba(10, 10, 10, 0.938) 0.2rem;
   transform: translate(-50% ,10%);
+  transition: 0s background-color  ;
+
+}
+#work1 a:hover{
+  background-color: white;
+  color: rgba(10, 10, 10, 0.938);;
+  transition-delay: 0.3ms;
 }
 #resume{
     display: flex;
