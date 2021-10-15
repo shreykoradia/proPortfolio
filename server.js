@@ -23,4 +23,4 @@ router.get('*', (req, res) => {
 // adding the routes
 
 app.use('/' , router);
-app.listen(port , ()=> console.log('> Server is up and running on port : ' + this.address().port , app.settings.env))
+app.listen(port , ()=> console.log('> Server is up and running on port : ' , this.address().port , app.settings.env))
