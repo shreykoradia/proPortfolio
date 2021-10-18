@@ -47,3 +47,17 @@ let tl3 = gsap.timeline({
 document.addEventListener('DOMContentLoaded', function() {
     const kinetics = new Kinetics().interactionHook();
   });
+
+
+
+// selecting the media queries 
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
