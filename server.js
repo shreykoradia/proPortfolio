@@ -5,6 +5,9 @@ const path = require('path')
 const router = express.Router();
 const port = process.env.PORT || 5100
 
+
+ 
+
 // app.use(express.static(path.join(__dirname, 'public')));
 // setting the public static files for the view engiene 
 app.use(express.static('.'));

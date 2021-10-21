@@ -60,7 +60,6 @@ a{
     top: 50%;
     font-size: 1.5rem;
     transform: translate(-50% , -50%) scale(6);
-
 }
 .home{
     height: 100vh;
@@ -80,6 +79,7 @@ a{
 .first-page p{
   text-align: left;
   overflow: hidden;
+  margin-top: 1rem;
 }
 
 .second-page p{
@@ -91,6 +91,7 @@ a{
     height: 100%;
     width: 40vw;
     background-repeat: no-repeat;
+
 }
 .second-page{
     height: 100vh;
@@ -193,6 +194,21 @@ ul {
     font-size: 1rem;
   }
 
+#resume-emb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+#resume-mob{
+  display: none;
+}
+
 
   @media screen and (max-width: 768px ){
     .nav-menu{
@@ -232,7 +248,32 @@ ul {
   .sliding-text{
     font-size: 0.5rem;
   }
+  .logo{
+    font-size: 1rem;
+  }
+
+  #aboutme-img{
+      display: none;
+  }
+
+  .first-page p{
+    overflow: hidden;
+    text-align: left;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .intro h2{
+    font-size: 3rem;
+  }
+
+  .second-page p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
+
+  }
   
   @media screen and (max-width: 426px) {
    #icon {
