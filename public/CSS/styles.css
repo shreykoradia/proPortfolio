@@ -114,25 +114,27 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.5rem ;
   flex-direction: column;
   font-size: 2rem;
+  margin-top: 1rem;
 
 }
 #work1 a{
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
   text-decoration: none;
+  background-color:rgba(10, 10, 10, 0.938) ;
+  padding: 0.5rem;
   color: white;
-  padding: 0.3rem;
-  border: white rgba(10, 10, 10, 0.938) 0.2rem;
+  border: 1px solid whitesmoke;
   transform: translate(-50% ,10%);
-  transition: 0s background-color  ;
 
 }
-#work1 a:hover{
+/* #work1 a:hover{
   background-color: white;
   color: rgba(10, 10, 10, 0.938);;
   transition-delay: 0.3ms;
-}
+} */
 #resume{
     display: flex;
     align-items: center;
@@ -193,21 +195,17 @@ ul {
   #contact p {
     font-size: 1rem;
   }
+  .resume-down{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(10, 10, 10, 0.938) ;
+    padding: 0.5rem;
+    color: white;
+    border: 1px solid whitesmoke;
+  }
 
-#resume-emb{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  width: 100%;
-  height: 60vh;
-  overflow: hidden;
-  margin-bottom: 2rem;
-}
-
-#resume-mob{
-  display: none;
-}
 
 
   @media screen and (max-width: 768px ){
